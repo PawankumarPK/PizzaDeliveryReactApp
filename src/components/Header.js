@@ -18,7 +18,6 @@ const Header = () => {
                         <div className = "banner__btn">
                             <a href="" className="btn btn-smart">
                                 Delivery Now
-
                             </a>
 
                         </div>
