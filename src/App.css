@@ -16,6 +16,7 @@ body{
   background-image: url("http://localhost:3000/img/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .banner__content{
@@ -50,4 +51,29 @@ body{
   font-size: 25px;
   font-weight: 400px;
   margin-top: 20px;
+}
+
+
+
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar__text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo{
+  width: 40%;
+}
+.logo img{
+  width: 220px;
+}
+.navbar__ul{
+  width: 60%;
 }
