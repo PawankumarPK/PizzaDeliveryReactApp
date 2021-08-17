@@ -53,6 +53,27 @@ body{
   margin-top: 20px;
 }
 
+.banner__btn{
+  margin-top: 35px;
+}
+
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+
+.btn-smart{
+  background: rgb(255, 69, 79);
+
+}
+
 
 
 .navbar{
@@ -85,4 +106,6 @@ body{
   color: white;
   padding: 0 15px;
   font-weight: 800;
+  text-transform: uppercase;
 }
+

@@ -15,6 +15,14 @@ const Header = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
                             minus ut mollitia error molestiae quia.
                         </p>
+                        <div className = "banner__btn">
+                            <a href="" className="btn btn-smart">
+                                Delivery Now
+
+                            </a>
+
+                        </div>
+
 
                     </div>
 
