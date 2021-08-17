@@ -119,12 +119,16 @@ body{
 .row{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 .col-6{
   width: 50%;
 }
 .col-3{
   width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
 }
 .about h3{
   color: rgba(37, 37, 37, 0.7);
@@ -206,4 +210,35 @@ body{
   font-style: 18px;
   font-weight: 400;
   margin-top: 35px;
+}
+
+
+
+.prices{
+  width: 100%;
+  padding: 80px 0;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price__img{
+  width: 100%;
+}
+.price__img img{
+  width: 250px;
+}
+.price__heading{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.price__text{
+  margin-top: 35px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+.price_rs{
+  font-size: 30px;
+  margin-top: 15px;
 }
